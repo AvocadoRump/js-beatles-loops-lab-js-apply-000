@@ -10,8 +10,18 @@ function theBeatlesPlay(arr1, arr2) {
 function johnLennonFacts(arr) {
   let i = 0;
   while (i<arr.length) {
-    arr[i] = arr[i] + '!!!'
-    i++
+    arr[i] = arr[i] + '!!!';
+    i++;
   }
   return arr;
+}
+
+function iLoveTheBeatles(num) {
+  let arr = []
+  let i = num;
+  do {
+    arr.push('I love the Beatles!');
+    i++;
+  } 
+  while (i <15);
 }
